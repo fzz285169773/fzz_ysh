@@ -87,6 +87,20 @@ export const constantRoutes = [
         meta: { title: '个人中心', icon: 'user' }
       }
     ]
+  },
+  {
+    path: '/customer',
+    component: Layout,
+    hidden: true,
+    redirect: 'noredirect',
+    children: [
+      {
+        path: 'info',
+        component: () => import('@/views/customer/info/index'),
+        name: 'Profile',
+        meta: { title: '基本信息'}
+      }
+    ]
   }
 ]
 
