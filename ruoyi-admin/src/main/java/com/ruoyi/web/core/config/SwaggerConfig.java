@@ -23,7 +23,7 @@ import springfox.documentation.spi.service.contexts.SecurityContext;
 import springfox.documentation.spring.web.plugins.Docket;
 
 /**
- * Swagger2的接口配置
+ * Swagger2的接口配置测试
  * 
  * @author ruoyi
  */
